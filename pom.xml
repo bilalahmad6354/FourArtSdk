@@ -9,7 +9,7 @@
         <extensions>true</extensions>   
         <configuration>
           <encoding>utf8</encoding>
-          <source>1.8</encoding>
+          <source>1.8</source>
           <target>1.8</target>
           <sign>
             <debug>false</debug>
