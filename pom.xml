@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.6.0" xsi:schemaLocation="http://maven.apache.org/POM/4.6.0 https://maven.apache.org/xsd/maven-4.6.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.5.0" xsi:schemaLocation="http://maven.apache.org/POM/4.5.0 https://maven.apache.org/xsd/maven-4.5.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <build>
     <plugins>
       <plugin>
         <groupId>com.simpligility.maven.plugins</groupId>
         <artifactId>android-maven-plugin</artifactId>
-        <version>4.6.0</version>
+        <version>4.5.0</version>
         <extensions>true</extensions>   
         <configuration>
         </configuration>
       </plugin>
     </plugins>
   </build>
-  <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.5.0</modelVersion>
   <groupId>com.group.module</groupId>
   <artifactId>final</artifactId>
   <version>1.0</version>
