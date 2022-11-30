@@ -8,9 +8,6 @@
         <version>4.6.0</version>
         <extensions>true</extensions>   
         <configuration>
-          <sign>
-              <debug>false</debug>
-          </sign>
         </configuration>
       </plugin>
     </plugins>
