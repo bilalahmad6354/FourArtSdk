@@ -19,7 +19,7 @@
     </plugins>
   </build>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example.fourart</groupId>
+  <groupId>com.example.fourartsdk</groupId>
   <artifactId>final</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
