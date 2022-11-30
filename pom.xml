@@ -5,14 +5,14 @@
       <plugin>
         <groupId>com.simpligility.maven.plugins</groupId>
         <artifactId>android-maven-plugin</artifactId>
-        <version>4.0.0</version>
+        <version>4.5.0</version>
         <extensions>true</extensions>   
         <configuration>
         </configuration>
       </plugin>
     </plugins>
   </build>
-  <modelVersion>4.5.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
   <groupId>com.group.module</groupId>
   <artifactId>final</artifactId>
   <version>1.0</version>
