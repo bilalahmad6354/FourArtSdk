@@ -1,46 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-             http://maven.apache.org/maven-v4_0_0.xsd">
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>com.simpligility.maven.plugins</groupId>
-        <artifactId>android-maven-plugin</artifactId>
-        <version>4.5.0</version>
-        <extensions>true</extensions>   
-        <configuration>
-          <encoding>utf8</encoding>
-          <source>1.8</source>
-          <target>1.8</target>
-          <sign>
-            <debug>false</debug>
-          </sign>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example.fourartsdk</groupId>
+  <groupId>com.example.module_test</groupId>
   <artifactId>final</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>com.squareup.retrofit2</groupId>
-      <artifactId>retrofit</artifactId>
-      <version>2.9.0</version>
+      <groupId>io.flutter</groupId>
+      <artifactId>flutter_embedding_debug</artifactId>
+      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.squareup.retrofit2</groupId>
-      <artifactId>converter-gson</artifactId>
-      <version>2.9.0</version>
+      <groupId>io.flutter</groupId>
+      <artifactId>armeabi_v7a_debug</artifactId>
+      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.squareup.okhttp3</groupId>
-      <artifactId>logging-interceptor</artifactId>
-      <version>3.9.0</version>
+      <groupId>io.flutter</groupId>
+      <artifactId>arm64_v8a_debug</artifactId>
+      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>x86_64_debug</artifactId>
+      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>x86_debug</artifactId>
+      <version>1.0.0-45f6e009110df4f34ec2cf99f63cf73b71b7a420</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.sharedpreferences</groupId>
+      <artifactId>shared_preferences_android_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tekartik.sqflite</groupId>
+      <artifactId>sqflite_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter.plugins.pathprovider</groupId>
+      <artifactId>path_provider_android_debug</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>
